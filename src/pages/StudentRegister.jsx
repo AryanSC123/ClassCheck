@@ -74,7 +74,7 @@ function StudentRegister() {
 
         alert("Login successful!");
         console.log("Student logged in:", formData);
-        navigate("/student/dashboard");
+        navigate("/dashboard");
       }
     } catch (error) {
       console.error(error.message);
